@@ -17,6 +17,6 @@ var input_color = prompt("L'interrogatorio finisce qui, qual'è il tuo colore pr
 // scrivi il risultato del form sulla pagina html
 document.getElementById('input_color').innerHTML = input_color
 
-
+var secure_psw = (input_name + input_surname + input_color);
 // Infine scrivi sulla pagina nomecognomecolorepreferito19
-document.getElementById('input_color').innerHTML = input_name+input_surname+input_color
+document.getElementById('secure_psw').innerHTML = secure_psw
